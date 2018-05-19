@@ -2,20 +2,17 @@
 markdown:         kramdown
 highlighter:      rouge
 
-# Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io/hydeout
-baseurl:          # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+google_analytics: UA-119137376-1
+
+title: Taskette
+tagline: Scalable Task Management for the Cloud
+description: The official Taskette blog
+url: https://blog.taskette.io
+logo: /logo.png
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Steven Hall'
+  url:            https://twitter.com/stvnhl
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -25,6 +22,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Custom vars
 version:            3.6.0
@@ -34,16 +32,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
-
-
-google_analytics: UA-119137376-1
-
-title: Taskette
-tagline: A scheduled service
-description: Articles and guides for Taskette users
-url: https://blog.taskette.io
-logo: /logo.png
-
-plugins:
-  - jekyll-seo-tag
+  repo: https://github.com/taskette/taskette-blog
