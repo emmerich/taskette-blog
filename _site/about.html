@@ -208,9 +208,11 @@
   <h1 class="page-title">What is Taskette?</h1>
 </header>
 <div class="content">
-  <p>Scheduled tasks are a necessary part of applications. Some common examples might be:</p>
+  <p>Taskette was created out of a need for a reliable, scalable scheduled task system.</p>
+
+<p>Scheduled tasks are a necessary part of applications. Some common examples might be:</p>
 <ul>
-  <li>Sending an email <em>n</em> days after a user signs up.</li>
+  <li>Sending an email 3 days after a user signs up.</li>
   <li>Backing up databases or logs every night.</li>
   <li>Checking whether important servers are up or down, and reacting when they’re down.</li>
 </ul>
@@ -218,8 +220,6 @@
 <p>These tasks become important business logic components, and their execution needs to be guaranteed. As a business grows, so do its operations, and these tasks suddenly start taking on more and more work and need to scale.</p>
 
 <hr />
-
-<p>Taskette was created out of a need for a reliable, scalable scheduled task system.</p>
 
 <p>Taskette is created for developers and administrators who want to focus on writing business logic, and not writing cron statements and timers or managing machines. As Taskette is a completely managed system, it can often be more powerful than what’s directly available to the engineers.</p>
 
@@ -229,7 +229,7 @@
 
 <p>Let’s take our 3 examples from above and implement them in Taskette.</p>
 
-<h3 id="sending-an-email-n-days-after-a-user-signs-up">Sending an email <em>n</em> days after a user signs up.</h3>
+<h3 id="sending-an-email-3-days-after-a-user-signs-up">Sending an email 3 days after a user signs up.</h3>
 
 <p>Here we’ve seen a basic example, where we request that our URL is called after 3 days. We’ve used a POST request with a JSON body. In 3 days, Taskette will call our URL with the correct parameters and we’ll send that email.</p>
 
@@ -249,7 +249,7 @@
 
 <p>Your existing tasks might not be accessible via URL, and our development team are always available to help you migrate easily and securely to use Taskette.</p>
 
-<h2 id="why-taskette-">Why Taskette ?</h2>
+<h2 id="why-taskette">Why Taskette?</h2>
 
 <p>Scheduling work is not a new concept, but we’re trying to make it better. We talk about other solutions and how they can be used here.</p>
 
@@ -275,13 +275,13 @@
 
 <p>We also support several authentication methods to ensure your Taskette account is safe, and that your URLs are only called by us.</p>
 
-<p>### Dynamic &amp; Programmable ###</p>
+<h3 id="dynamic--programmable">Dynamic &amp; Programmable</h3>
 
 <p>A cron system isn’t dynamic. If you want to add a scheduled task based on a request, you’ll need to manually add a new cron task. Imagine our previous example: sending an email to a user 3 days after they sign up. That’s quite difficult to do with non-dynamic systems.</p>
 
 <p>In Taskette, it’s easy. From your application code you can make a call to Taskette and the job is created instantly.</p>
 
-<p>### Stress-free ###</p>
+<h3 id="managed-solution">Managed Solution</h3>
 
 <p>Cron requires servers. Even learning the crontab syntax can be an effort in itself. Debugigng failed tasks, ensuring that jobs are run on time. These are all problems that have been solved before and detract from building your application. We centralize all the best practices and provide a simple interface, meaning you spend less time debugging servers and more time writing code.</p>
 
