@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-19T17:51:50+02:00</updated><id>http://localhost:4000/</id><title type="html">Taskette</title><subtitle>The official Taskette blog</subtitle><author><name>Steven Hall</name></author><entry><title type="html">Alternatives to Taskette</title><link href="http://localhost:4000/developers/2018/05/18/alternatives-to-taskette.html" rel="alternate" type="text/html" title="Alternatives to Taskette" /><published>2018-05-18T00:00:00+02:00</published><updated>2018-05-18T00:00:00+02:00</updated><id>http://localhost:4000/developers/2018/05/18/alternatives-to-taskette</id><content type="html" xml:base="http://localhost:4000/developers/2018/05/18/alternatives-to-taskette.html">&lt;p&gt;Scheduling work is not a new concept, but we’re trying to make it better. Here’s some other solutions you can use, and how they compare against Taskette.&lt;/p&gt;
+
+&lt;h2 id=&quot;cron&quot;&gt;cron&lt;/h2&gt;
+
+&lt;p&gt;cron is vanilla - it’s the classic, but it’s starting to feel dated. You won’t find anything more battle-tested than cron, and it does its job well. However, when we look at how computing has changed in the past decade (cloud, distributed, horizontal scaling), it needs an update.&lt;/p&gt;
+
+&lt;p&gt;We understand that cron’s syntax is globally recognized, that’s why Taskette fully supports cron syntax. On top of that, you’ll be getting the following things that cron doesn’t offer:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Managed service, you don’t have to keep track of your cron machine. If you’re in the cloud, you don’t have to provision and manage a VM just for your cron tasks&lt;/li&gt;
+  &lt;li&gt;Built in task reporting, notifications, and alerts&lt;/li&gt;
+  &lt;li&gt;Horizontal scalability (and reliability across multiple machines)&lt;/li&gt;
+  &lt;li&gt;Durability (don’t restart your cron server!)&lt;/li&gt;
+  &lt;li&gt;Dynamic tasks. Remember that cron needs to be statically defined on the machine. How would you send an email to a use 3 days after they signed up using cron? It’s possible, but much more difficult.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;building-your-own-scheduler&quot;&gt;Building your own scheduler&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Language specific
+    &lt;h2 id=&quot;azure-scheduler&quot;&gt;Azure Scheduler&lt;/h2&gt;
+    &lt;h2 id=&quot;amazon-swf&quot;&gt;Amazon SWF&lt;/h2&gt;
+    &lt;h2 id=&quot;amazon-lambda-using-cron&quot;&gt;Amazon Lambda using cron&lt;/h2&gt;
+    &lt;p&gt;## Google Functions using cron&lt;/p&gt;
+    &lt;h2 id=&quot;chronos&quot;&gt;Chronos&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;why-taskette-&quot;&gt;Why Taskette ?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using it in the Cloud.&lt;/li&gt;
+  &lt;li&gt;No more management of cron machines and job&lt;/li&gt;
+  &lt;li&gt;REporting on repeated tasks&lt;/li&gt;
+  &lt;li&gt;Scalable tasks&lt;/li&gt;
+  &lt;li&gt;Dynamic tasks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google Functions&lt;/li&gt;
+  &lt;li&gt;AWS&lt;/li&gt;
+  &lt;li&gt;Custom Application&lt;/li&gt;
+  &lt;li&gt;Coming from Cron&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;posts
+dynamic cron with other tools
+cron with google cloud functions&lt;/p&gt;</content><author><name>Steven Hall</name></author><category term="Developers" /><summary type="html">Scheduling work is not a new concept, but we’re trying to make it better. Here’s some other solutions you can use, and how they compare against Taskette.</summary></entry></feed>

@@ -1,5 +1,6 @@
 ---
 title: Alternatives to Taskette
+category: Developers
 ---
 
 Scheduling work is not a new concept, but we're trying to make it better. Here's some other solutions you can use, and how they compare against Taskette.
