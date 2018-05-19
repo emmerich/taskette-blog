@@ -4,7 +4,10 @@ title: Get Started
 sidebar_link: true
 ---
 
-* Google Functions
-* AWS
-* Custom Application
-* Coming from Cron
+To get started with Taskette, you'll need to do 2 things:
+
+1. <a href="https://taskette.io/sign-up" target="_blank">Create a free Taskette account</a>
+
+2. Head over to our documentation and start scheduling tasks! We've put together a few quick-start guides for your favourite technologies:
+
+* [Getting Started with NodeJS](https://docs.taskette.io/getting-started/nodejs)
