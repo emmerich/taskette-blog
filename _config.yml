@@ -20,7 +20,7 @@ github:
   repo:           https://github.com/poole/hyde
 
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-awesome
 google_analytics: UA-119137376-1
 
 title: Taskette
