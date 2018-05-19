@@ -1,8 +1,10 @@
 theme: jekyll-theme-slate
 google_analytics: UA-119137376-1
 
-title: Taskette Blog
+title: Taskette
 description: Articles and guides for Taskette users
+url: https://blog.taskette.io
+logo: /logo.png
 
 plugins:
   - jekyll-seo-tag

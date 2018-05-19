@@ -1,5 +1,7 @@
 ---
 title: Introducing Taskette
+author:
+  twitter: taskette
 ---
 
 Scheduled tasks are a necessary part of applications. Some common examples might be:
